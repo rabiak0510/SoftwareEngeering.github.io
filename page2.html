@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale">
+        <title>page 2 - Aees </title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@700&family=Poppins:ital,wght@1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+     
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/aees.png"width="125px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="Account.html">Account</a></li>
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    </ul>
+                </nav>
+                <img src="images/shopping-cart-24.png"width="30px" height="30px">
+                <img src="images/menuu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+           
+    </div>
+        </div>
+        <div class="slideshow-container">
+
+          
+            <a href="samsungnote20ultra.html"> <img class="mySlides" src="images/note2.jpg" style="width:100%"></a>
+            <a href="SamsungGalaxyFold.html"><img class="mySlides" src="images/fold.jpg" style="width:100%"></a>
+            <a href="SamsungGalaxyS20Plus.html"><img class="mySlides" src="images/s20.jpg" style="width:100%"></a>
+          </div>
+          
+          <script>
+          var myIndex = 0;
+          carousel();
+          
+          function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+          }
+          </script>
+
+<div class="small-container">
+   <div class="row row-2">
+       <h2>All Products</h2>
+       <select>
+           <option>Default shorting</option>
+           <option>Short by price</option>
+           <option>Short by popularity</option>
+           <option>Short by rating</option>
+           <option>Short by sale</option>
+       </select>
+   </div>
+    <div class="row">
+        <div class="row">
+            <div class="col-4">
+                <img src="images/VivoV19-b.jpg">
+                <h4>Vivo V19</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.219,999</p>
+                <p>USD $1639</p>
+            </div>
+            <div class="col-4">
+                <img src="images/XiaomiRedmiNote9Pro-b.jpg">
+                <h4>Xiaomi Redmi Note 9 Pro </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+    
+                </div>
+                <p>Rs. 44,999</p>
+                <p>USD $335</p>
+            </div>
+            <div class="col-4">
+                <img src="images/InfinixHot9Play4GB-b.jpg">
+                <h4>Infinix Hot 9 Play 4GB</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+    
+                </div>
+                <p>Rs. 17,999</p>
+                <p>USD $134</p>
+            </div>
+            <div class="col-4">
+                <img src="images/OppoA123GB-b.jpg">
+                <h4>Oppo A12 3GB</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs. 19,999</p>
+                <p>USD $149</p>
+        </div>
+                <div class="col-4">
+                    <img src="images/QmobileViewMaxPro-b.jpg">
+                    <h4>QMobile View Max Pro
+                    </h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>Rs. 13,900/p>
+                    <p>USD $104</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/VivoV15-b.jpg">
+                    <h4>Vivo V15                    </h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>Rs. 39,999</p>
+                    <p>USD $298</p>
+            </div>
+            <div class="col-4">
+                <img src="images/Realme3Pro-b.jpg">
+                <h4>Realme 3 Pro
+                </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs. 35,499</p>
+                <p>USD $265</p>
+        </div>
+        <div class="col-4">
+            <img src="images/OppoA52020-b.jpg">
+            <h4>Oppo A5 2020</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>Rs. 31,999</p>
+              <p> USD $238</p>
+    </div>
+    <div class="col-4">
+        <img src="images/Honor9X-b.jpg">
+        <h4>Honor 9X</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <p>Rs. 39,999</p>
+          <p>USD $298</p>
+    </div>
+    <div class="col-4">
+        <img src="images/XiaomiRedmiNote8Pro-b.jpg">
+        <h4>Xiaomi Redmi Note 8 Pro</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>Rs. 39,999</p>
+          <p> USD $298</p>
+    </div>
+    <div class="col-4">
+        <img src="images/SamsungGalaxyA30s-b.jpg">
+        <h4>Samsung Galaxy A30s
+        </h4>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>Rs. 36,999</p>
+          <p>USD $276</p>
+    </div>
+    <div class="col-4">
+        <img src="images/HuaweiY9Prime2019-b.jpg">
+        <h4>Huawei Y9 Prime 2019
+        </h4>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <p>Rs. 33,999</p>
+          <p> USD $253</p>
+    </div>
+            </div>
+            
+        </div>
+        <div class="page-btn">
+            <span><a href="page1.html">1</a></span>
+            <span><a href="page2.html">2</a></span>
+            <span><a href="page3.html">3</a></span>
+            <span><a href="page3.html">&#8594;</a></span>
+        </div>
+</div>
+
+     
+<!----------footer------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>    
+            <p>Download App for Android and ios mobile phone.</p>
+        <div class="app-logo">
+            <img src="images/play-store.png">
+            <img src="images/app-store.png">
+        </div>    
+        </div>
+            <div class="footer-col-2">
+                <img src="images/aees.png">
+                <p>Our mission here at Aees is simple: make online shopping easy!</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <hr>
+<p class="copyright">copyright 2020 - Aees</p>
+</div>
+    </div>
+    <!---------js for toggle menu------>
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight = "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+</body>
+</html>
+   

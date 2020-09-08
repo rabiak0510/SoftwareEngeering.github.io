@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C6DEAE31-8B1D-4F66-A361-6B8E53D0E35C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SummerSemesterProject</RootNamespace>
+    <AssemblyName>SummerSemesterProject</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="about.html" />
+    <Content Include="Account.html" />
+    <Content Include="AppleiPhone11ProMax.html" />
+    <Content Include="contact.html" />
+    <Content Include="flow.css" />
+    <Content Include="HuaweiP30Pro.html" />
+    <Content Include="images\a21.png" />
+    <Content Include="images\aees.png" />
+    <Content Include="images\app-store.png" />
+    <Content Include="images\apple-iphone-11-pro-4.jpg" />
+    <Content Include="images\apple-iphone-11-pro-max-1.jpg" />
+    <Content Include="images\apple-iphone-11-pro-max-2.jpg" />
+    <Content Include="images\apple-iphone-11-pro-max-3.jpg" />
+    <Content Include="images\AppleiPhone11ProMax-b.jpg" />
+    <Content Include="images\back.jpg" />
+    <Content Include="images\background.jpg" />
+    <Content Include="images\desk-iphone-macbook-mobile.jpg" />
+    <Content Include="images\fold.jpg" />
+    <Content Include="images\Honor20Pro-b.jpg" />
+    <Content Include="images\Honor9X-b.jpg" />
+    <Content Include="images\huawei-p30-pro-pakistan-1.jpg" />
+    <Content Include="images\huawei-p30-pro-pakistan-2.jpg" />
+    <Content Include="images\huawei-p30-pro-pakistan-3.jpg" />
+    <Content Include="images\huawei-p30-pro-pakistan-4.jpg" />
+    <Content Include="images\HuaweiP30Pro-b.jpg" />
+    <Content Include="images\HuaweiY9Prime2019-b.jpg" />
+    <Content Include="images\img note.jpg" />
+    <Content Include="images\img3.jpg" />
+    <Content Include="images\InfinixHot9Play4GB-b.jpg" />
+    <Content Include="images\iphone.png" />
+    <Content Include="images\kindpng_1342011.png" />
+    <Content Include="images\logo-coca-cola.png" />
+    <Content Include="images\logo-godrej.png" />
+    <Content Include="images\logo-oppo.png" />
+    <Content Include="images\logo-paypal.png" />
+    <Content Include="images\logo-philips.png" />
+    <Content Include="images\menuu.png" />
+    <Content Include="images\mobile.jpg" />
+    <Content Include="images\mobilee.png" />
+    <Content Include="images\note.png" />
+    <Content Include="images\note1.png" />
+    <Content Include="images\note2.jpg" />
+    <Content Include="images\note20.jpg" />
+    <Content Include="images\OnePlus7TPro-b.jpg" />
+    <Content Include="images\oppo-find-x2-pro-1.jpg" />
+    <Content Include="images\oppo-find-x2-pro-2.jpg" />
+    <Content Include="images\oppo-find-x2-pro-3.jpg" />
+    <Content Include="images\oppo-find-x2-pro-4.jpg" />
+    <Content Include="images\OppoA123GB-b.jpg" />
+    <Content Include="images\OppoA52020-b.jpg" />
+    <Content Include="images\OppoF11Pro-b.jpg" />
+    <Content Include="images\OppoFindX2pro-b.jpg" />
+    <Content Include="images\OppoReno10XZoom-b.jpg" />
+    <Content Include="images\pexels-arun-thomas-1156684.jpg" />
+    <Content Include="images\pexels-bongkarn-thanyakij-3803219.jpg" />
+    <Content Include="images\pexels-pixabay-531880.jpg" />
+    <Content Include="images\pexels-roberto-nickson-3082341.jpg" />
+    <Content Include="images\pexels-terje-sollie-336948.jpg" />
+    <Content Include="images\play-store.png" />
+    <Content Include="images\product-2.jpg" />
+    <Content Include="images\QmobileViewMaxPro-b.jpg" />
+    <Content Include="images\realme-6-pro-pakistan-1.jpg" />
+    <Content Include="images\realme-6-pro-pakistan-2.jpg" />
+    <Content Include="images\realme-x3-super-zoom-1.png" />
+    <Content Include="images\realme-x3-super-zoom-2.jpg" />
+    <Content Include="images\Realme3Pro-b.jpg" />
+    <Content Include="images\Realme6pro-b.jpg" />
+    <Content Include="images\RealmeC11-b.jpg" />
+    <Content Include="images\RealmeC12-b.jpg" />
+    <Content Include="images\RealmeX3SuperZoom-b.jpg" />
+    <Content Include="images\s1.jpg" />
+    <Content Include="images\s2.jpg" />
+    <Content Include="images\s20%281%29.jpg" />
+    <Content Include="images\s20%282%29.jpg" />
+    <Content Include="images\s20%283%29.jpg" />
+    <Content Include="images\s20%284%29.jpg" />
+    <Content Include="images\s20%285%29.jpg" />
+    <Content Include="images\s20.jpg" />
+    <Content Include="images\s3.jpg" />
+    <Content Include="images\s4.jpg" />
+    <Content Include="images\samsung-galaxy-fold-1.jpg" />
+    <Content Include="images\samsung-galaxy-fold-2.jpg" />
+    <Content Include="images\samsung-galaxy-fold-3.jpg" />
+    <Content Include="images\samsung-galaxy-fold-4.jpg" />
+    <Content Include="images\samsung-galaxy-s20-3.jpg" />
+    <Content Include="images\samsung-galaxy-s20-plus-1.jpg" />
+    <Content Include="images\samsung-galaxy-s20-plus-2.jpg" />
+    <Content Include="images\samsung-galaxy-s20-plus-4.jpg" />
+    <Content Include="images\samsung-galaxy-z-flip-1.jpg" />
+    <Content Include="images\samsung-galaxy-z-flip-2.jpg" />
+    <Content Include="images\samsung-galaxy-z-flip-3.jpg" />
+    <Content Include="images\SamsungGalaxyA30s-b.jpg" />
+    <Content Include="images\SamsungGalaxyFold-b.jpg" />
+    <Content Include="images\SamsungGalaxyNote10Lite-b.jpg" />
+    <Content Include="images\SamsungGalaxyNote20-b.jpg" />
+    <Content Include="images\SamsungGalaxyNote20.jpg" />
+    <Content Include="images\SamsungGalaxyNote9-b.jpg" />
+    <Content Include="images\SamsungGalaxyS20Plus-b.jpg" />
+    <Content Include="images\SamsungGalaxyZFlip-b.jpg" />
+    <Content Include="images\samsung_logo.png" />
+    <Content Include="images\shopping-cart-16.png" />
+    <Content Include="images\shopping-cart-24.png" />
+    <Content Include="images\sign.jpg" />
+    <Content Include="images\signup.jpg" />
+    <Content Include="images\vivo-v17-pro-pakistan-1.jpg" />
+    <Content Include="images\vivo-v17-pro-pakistan-2.jpg" />
+    <Content Include="images\vivo-v17-pro-pakistan-3.jpg" />
+    <Content Include="images\vivo-v17-pro-pakistan-4.jpg" />
+    <Content Include="images\VivoV15-b.jpg" />
+    <Content Include="images\VivoV15Pro-b.jpg" />
+    <Content Include="images\VivoV17-b.jpg" />
+    <Content Include="images\VivoV17Pro-b.jpg" />
+    <Content Include="images\VivoV19-b.jpg" />
+    <Content Include="images\watch.png" />
+    <Content Include="images\xiaomi-mi-10-pakistan-1.jpg" />
+    <Content Include="images\XiaomiMi10-b.jpg" />
+    <Content Include="images\XiaomiMi9T-b.jpg" />
+    <Content Include="images\XiaomiRedmiNote8Pro-b.jpg" />
+    <Content Include="images\XiaomiRedmiNote9Pro-b.jpg" />
+    <Content Include="images\YxRayv.jpeg" />
+    <Content Include="images\z.jpg" />
+    <Content Include="images\z1.jpg" />
+    <Content Include="index.html" />
+    <Content Include="login.html" />
+    <Content Include="master.css" />
+    <Content Include="message.html" />
+    <Content Include="OppoFindX2pro.html" />
+    <Content Include="page1.html" />
+    <Content Include="page2.html" />
+    <Content Include="page3.html" />
+    <Content Include="page4.html" />
+    <Content Include="product.html" />
+    <Content Include="Realme6pro.html" />
+    <Content Include="RealmeX3SuperZoom.html" />
+    <Content Include="SamsungGalaxyFold.html" />
+    <Content Include="SamsungGalaxyS20Plus.html" />
+    <Content Include="SamsungGalaxyZFlip.html" />
+    <Content Include="samsungnote20.html" />
+    <Content Include="samsungnote20ultra.html" />
+    <Content Include="signup.html" />
+    <Content Include="style.css" />
+    <Content Include="success.html" />
+    <Content Include="VivoV17Pro.html" />
+    <Content Include="Web.config" />
+    <Content Include="XiaomiMi10.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="debug.log" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:3758/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
